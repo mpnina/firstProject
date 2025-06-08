@@ -1,0 +1,29 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpnina/firstProject.git"
+  },
+  "author": "miri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpnina/firstProject/issues"
+  },
+  "homepage": "https://github.com/mpnina/firstProject#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "typescript": "^5.8.3"
+  }
+}
